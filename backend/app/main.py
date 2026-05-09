@@ -15,7 +15,7 @@ app = FastAPI(
 # CORS configuration 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://business-dashboard-tlj0.onrender.com/"],
+    allow_origins=["https://business-listings-analytics-dashboard-at44.onrender.com"],
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
